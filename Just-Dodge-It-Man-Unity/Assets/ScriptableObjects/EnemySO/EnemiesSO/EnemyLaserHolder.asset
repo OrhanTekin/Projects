@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61745c7ac6c2aa442a0a00fc542bd48b, type: 3}
+  m_Name: EnemyLaserHolder
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4667975164535747970, guid: 2a97abe9ce5b4e246ba8a82bc0ff1188, type: 3}
+  cost: 2
+  spawnPoints:
+  - {x: 0, y: 30, z: 0}
+  - {x: 0, y: -30, z: 0}
+  spawnDelay: 1.5
+  firstWave: 4

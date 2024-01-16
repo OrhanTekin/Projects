@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506ab29627d08e246baf04b1300f1d7b, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: 
+  initMaxHealth: 500
+  initMovespeed: 20
+  initShootDelayTime: 0.2
+  initRocketShootDelayTime: 0.8
+  initDamageMultiplier: 1
+  initPlayerSize: 1
+  initNumberOfShields: 0
+  initExtraGuns: 0
+  initRockets: 0
+  initPiercingShots: 0
+  initRedBullet: 0

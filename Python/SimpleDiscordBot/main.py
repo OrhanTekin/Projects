@@ -62,6 +62,25 @@ async def flip_coin(message):
     await message.channel.send(coin + "!")   
 
 
+@client.command(name='choose')
+async def choose(message, *choices: str):
+    """Chooses between multiple choices."""
+    await message.send(random.choice(choices))
+
+
+@client.command(name='dice')
+async def dice(message):
+    roll = random.randint(1,6)
+    await message.send(roll)
+
+
+@client.command(name='dice2')
+async def dice2(message):
+    roll = random.randint(1,6)
+    roll2 = random.randint(1,6)
+    await message.send(str(roll) + ", " + str(roll2))
+
+
 @client.event
 async def on_connect():
     print("Bot connected!")

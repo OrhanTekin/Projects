@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #29cef7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    color: #faebd7;
+    font-family: "Montserrat", sans-serif;
+    background-color: #011623; /* deep blue like your other site */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+
+.add-game {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.add-game input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid #faebd7;
+    border-radius: 8px;
+    background: transparent;
+    color: #faebd7;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.add-game input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.btn {
+    color: #faebd7;
+    cursor: pointer;
+    border: 2px solid #faebd7;
+    background-color: transparent;
+    font-family: inherit;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 500px;
+}
+
+li {
+    background: #031e2e;
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    transition: background 0.2s ease-in-out;
+}
+
+li:hover {
+    background: #05283f;
+}
+
+label {
+    flex-grow: 1;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    accent-color: var(--primary-color);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.checked label {
+    text-decoration: line-through;
+    color: var(--primary-color);
+}

@@ -160,3 +160,6 @@ crashlytics-build.properties
 
 # Hidden file
 *.env
+
+
+node_modules/

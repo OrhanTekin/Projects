@@ -1,0 +1,20 @@
+{
+  "games": [
+    {
+      "name": "League of Legends: Doombots",
+      "checked": false
+    },
+    {
+      "name": "Valorant",
+      "checked": false
+    },
+    {
+      "name": "CS2",
+      "checked": false
+    },
+    {
+      "name": "Repo",
+      "checked": false
+    }
+  ]
+}
